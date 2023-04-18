@@ -87,3 +87,5 @@ So to divide items you would use the sub-property class=”grid-item”.
 24. Which sub-property of display grid you can use to prevent displaying empty columns. Write a code example of that property.
 - To prevent displaying empty columns you would use the display property grid-auto-columns; and set the minmax to . The code would look like (without .s):
 grid-auto-columns: minmax (0, 1fr) 
+25. Explain the steps to add google fonts to your CSS file and how will you link it to the html file.
+- To add google fonts to your CSS file and attach it to your HTML file you would first go to google fonts and select the fonts you want to use. Then you would copy the link for the font and paste it in your HTML file in the head and above the title of the file. You can then use the property font family and set the element to the font you chose. 

@@ -38,4 +38,8 @@ html, head, body, header, nav, main, section, article, div, aside, footer, span,
 - The footer element defines a footer for a document or section and typically contains authorship information, copyright information, contact information, etc…
 - The span element is an inline container used to mark up part of a text or document. It’s much like the div element but the div element is a block-level element, and the span element is an inline element. 
 - The small element defines smaller text such as copyright and other side-comments. 
-
+7. Explain why accessibility is important and also explain the accessibility properties like: landmark roles, aria labels, and image alternative texts. 
+- Accessibility is important because it allows everyone, including users with disabilities, to have an ideal experience, and be able to access information equally. 
+- Landmark roles are to help those using screen readers to jump directly to different sections within the site. 
+- Aria labels provide users with a non-visual label for a link that will only be announced by screen readers. It contains a description of what the user will click through to go to a certain place. 
+- Image alternative texts or the ALT attribute, provides users with a description of the image in case it doesn’t download or to describe the image to someone who cannot see the image such as someone using a screen reader. If the image is purely decorative you can leave this attribute blank and apply the presentation role.

@@ -73,4 +73,5 @@ display: flex;.
 }
 18. What is CSS grid property?
 - CSS grid offers a grid-based way to layout your site with rows and columns, making it easier to design web pages without having to use floats and positioning.
-19. 
+19. Write the parent and two sub-properties used for CSS Grid Property.
+- The parent property for CSS grid is display, and the sub-properties are grid and inline-grid.

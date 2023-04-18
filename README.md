@@ -62,3 +62,8 @@ HTML. {.
 - The flexbox property controls the flow and alignment of elements for more complex layouts. 
 15. What are different types of flexbox properties and what is the major difference between them?
 - The flexbox property controls the flow and alignment of elements for more complex layouts. The two types of flexbox properties are container properties (flex-direction, flex-wrap, justify-content, align-items, and align-content) and flex item properties (order, flex, flex-grow, flex-shrink, and align-self). Container properties affect the parent element, or container. The flex item properties affect the direct child elements, or flex items. 
+16. Explain with code the use of flexbox property on a parent element and also explain the sub properties you might need for the flexbox property.
+- You must first gave a parent element a display property by using display, then using a sub property of flex or inline-flex to create a container that allows a flex context for all of its direct children. The code for this, using the flex sub-property would be (ignoring .s):
+.container {.
+display: flex;.
+} You can also use inline-flex as a sub property.

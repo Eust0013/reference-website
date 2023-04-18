@@ -71,4 +71,6 @@ display: flex;.
 .container {
     display: flex;
 }
-18. 
+18. What is CSS grid property?
+- CSS grid offers a grid-based way to layout your site with rows and columns, making it easier to design web pages without having to use floats and positioning.
+19. 

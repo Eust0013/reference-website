@@ -60,3 +60,5 @@ HTML. {.
 - There are four major display properties. Inline: allows the element on the same line (height and width properties have no effect). Block: forces the element to be on its own line regardless of its width. Inline-block: The element is formatted as an inline element but you can apply height and width values. None: The element is completely removed. 
 14. Write a brief explanation of flexbox property.
 - The flexbox property controls the flow and alignment of elements for more complex layouts. 
+15. What are different types of flexbox properties and what is the major difference between them?
+- The flexbox property controls the flow and alignment of elements for more complex layouts. The two types of flexbox properties are container properties (flex-direction, flex-wrap, justify-content, align-items, and align-content) and flex item properties (order, flex, flex-grow, flex-shrink, and align-self). Container properties affect the parent element, or container. The flex item properties affect the direct child elements, or flex items. 

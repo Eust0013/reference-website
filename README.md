@@ -67,3 +67,8 @@ HTML. {.
 .container {.
 display: flex;.
 } You can also use inline-flex as a sub property.
+17. Write a code example on how you will use a flexbox property on a parent element with sub properties.
+.container {
+    display: flex;
+}
+18. 

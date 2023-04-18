@@ -75,3 +75,5 @@ display: flex;.
 - CSS grid offers a grid-based way to layout your site with rows and columns, making it easier to design web pages without having to use floats and positioning.
 19. Write the parent and two sub-properties used for CSS Grid Property.
 - The parent property for CSS grid is display, and the sub-properties are grid and inline-grid.
+20. What is the difference between display: flex and display: grid?
+- The difference between display: flex; and display: grid; is that flex is for flexbox which is for layouts in one dimension (either a row or column), and grid is for CSS grid which is for layouts in two dimensions (rows and columns at the same time).

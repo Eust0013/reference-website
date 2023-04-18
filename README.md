@@ -77,3 +77,6 @@ display: flex;.
 - The parent property for CSS grid is display, and the sub-properties are grid and inline-grid.
 20. What is the difference between display: flex and display: grid?
 - The difference between display: flex; and display: grid; is that flex is for flexbox which is for layouts in one dimension (either a row or column), and grid is for CSS grid which is for layouts in two dimensions (rows and columns at the same time).
+21. What sub-property we use to divide elements in CSS Grid properties?
+- To divide elements in CSS grid properties you would use <div class="grid-container"> for the parent element, and  <div class="grid-item">1</div> with changing numbers for each element. 
+So to divide items you would use the sub-property class=”grid-item”.

@@ -5,3 +5,5 @@
 - Commit messages should be a minimum of 3 words, and 10 characters, with proper spelling and grammar. They must start with a capital letter and imperative verb, and not have a period at the end. You should pretend that every commit message starts with the phrase: "This commit will...".
 3. What is HTML?
 - HTML is Hypertext Markup Language. It's the coding language used to describe the content of websites.
+4. Proper syntax for HTML tags
+- The proper syntax for HTML tags is an open tag <>, the element content, and a close tag </> with the tag name in between the angle brackets.

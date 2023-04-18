@@ -55,4 +55,7 @@ HTML. {.
 11. Explain different type of ways we can add spacing to an element.
 - There are two ways to add spacing to an element; padding, and margin. Padding adds spacing inside the box, pushing the content away from its border. Margin adds spacing outside the box, pushing other boxes away from it. Margins can have positive or negative values.
 12. What is the main difference between margin and padding?
-- The main difference between margin and padding is that margin adds space outside of the box, and padding adds space inside of the box. 
+- The main difference between margin and padding is that margin adds space outside of the box, and padding adds space inside of the box.
+13. What are different types of display properties?
+- There are four major display properties. Inline: allows the element on the same line (height and width properties have no effect). Block: forces the element to be on its own line regardless of its width. Inline-block: The element is formatted as an inline element but you can apply height and width values. None: The element is completely removed. 
+ 

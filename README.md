@@ -45,3 +45,8 @@ html, head, body, header, nav, main, section, article, div, aside, footer, span,
 - Image alternative texts or the ALT attribute, provides users with a description of the image in case it doesn’t download or to describe the image to someone who cannot see the image such as someone using a screen reader. If the image is purely decorative you can leave this attribute blank and apply the presentation role.
 8. What is CSS and how can we implement CSS to our html file (write a proper explanation with the code required to attach a CSS file inside html file)?
 - CSS is a Cascading Style Sheet. It’s the language we use to control the appearance of our HTML page. We can implement CSS to our HTML file by creating a file in a code editor saved with the extension .css, for example, style.css. You would then place this file in the CSS folder, and link it to the HTML so the browser knows where to find it. You can attach it to the HTML by using the link element inside the head element. 
+9. What is the difference between CSS property and value (write explanation and an example code)?
+- CSS property is the type of design you want to add such as colour, width, border, etc.. CSS value is the accepted value for that property such as blue, 30px, etc… For example in the code (ignore .s)
+HTML. {.
+ colour: black;
+} COLOUR would be the property and BLACK would be the value. 

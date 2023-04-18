@@ -78,7 +78,9 @@ display: flex;.
 20. What is the difference between display: flex and display: grid?
 - The difference between display: flex; and display: grid; is that flex is for flexbox which is for layouts in one dimension (either a row or column), and grid is for CSS grid which is for layouts in two dimensions (rows and columns at the same time).
 21. What sub-property we use to divide elements in CSS Grid properties?
-- To divide elements in CSS grid properties you would use <div class="grid-container"> for the parent element, and  <div class="grid-item">1</div> with changing numbers for each element. 
+- To divide elements in CSS grid properties you would use (without .s) <.div .class.="grid-container"> for the parent element, and  <.div class="grid-item">1</.div> with changing numbers for each element. 
 So to divide items you would use the sub-property class=”grid-item”.
 22. What unit we use to fractionally divide the element width in CSS Grid property and what are others unit we can use alternatively? (Write a code example).
 - To fractionally divide the element width in CSS grid you would use the fr unit. Which would look like grid-template-columns: 1fr 1fr 1fr;. Other units you could use are ex, px, %, and em. 
+23. What is the area property in CSS grid we use for the child elements?
+- We use grid: row and grid: column for child elements.

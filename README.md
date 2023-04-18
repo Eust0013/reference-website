@@ -84,3 +84,6 @@ So to divide items you would use the sub-property class=”grid-item”.
 - To fractionally divide the element width in CSS grid you would use the fr unit. Which would look like grid-template-columns: 1fr 1fr 1fr;. Other units you could use are ex, px, %, and em. 
 23. What is the area property in CSS grid we use for the child elements?
 - We use grid: row and grid: column for child elements.
+24. Which sub-property of display grid you can use to prevent displaying empty columns. Write a code example of that property.
+- To prevent displaying empty columns you would use the display property grid-auto-columns; and set the minmax to . The code would look like (without .s):
+grid-auto-columns: minmax (0, 1fr) 

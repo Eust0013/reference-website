@@ -50,3 +50,5 @@ html, head, body, header, nav, main, section, article, div, aside, footer, span,
 HTML. {.
  colour: black;
 } COLOUR would be the property and BLACK would be the value. 
+10. Why do we use border-box property in CSS?
+- By default, the width and the height of an element is calculated like width + padding + border = actual width of the element and height + padding + border = actual height of the element, therefore when you set the width and height of an element the element often appears bigger than you have set as it adds the padding and border to the total size. With the border box element, the padding and border are included inside the width and height of the box (not added) so the total width and height doesn’t change from the value set.

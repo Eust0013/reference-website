@@ -80,3 +80,5 @@ display: flex;.
 21. What sub-property we use to divide elements in CSS Grid properties?
 - To divide elements in CSS grid properties you would use <div class="grid-container"> for the parent element, and  <div class="grid-item">1</div> with changing numbers for each element. 
 So to divide items you would use the sub-property class=”grid-item”.
+22. What unit we use to fractionally divide the element width in CSS Grid property and what are others unit we can use alternatively? (Write a code example).
+- To fractionally divide the element width in CSS grid you would use the fr unit. Which would look like grid-template-columns: 1fr 1fr 1fr;. Other units you could use are ex, px, %, and em. 

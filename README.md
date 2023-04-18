@@ -17,4 +17,25 @@ headings: h1-h6, p, lists: ul, ol, dl, a, img, q, blockquote, cite, em, strong, 
 - Q tags are used to define quotes embedded in other elements such as a paragraph.
 - Blockquote tags are used to define large, stand alone quotes.
 - Cite tags are used to mark the source of a quote. 
-- 
+- EM is a phrasing element used for emphasis.
+- Strong is a phrasing element used to give lots of emphasis on something of strong importance or urgency.
+- b is a phrasing element used for keywords. 
+- i is a phrasing element used for another language, technical term, or title.
+- Small is a phrasing element used for side-comments and small print.
+6. Explain block Elements and also explain the list of block elements and why they are used from below:
+html, head, body, header, nav, main, section, article, div, aside, footer, span, small.
+- Block elements begin a new line on a webpage, and extend to the full width of the horizontal space of its parent element. They create large blocks of content and are used within the HTML document’s body. They can contain inline elements and other block-level elements. 
+- The HTML element defines the whole HTML document. It’s everything from the start tag to the end tag.
+- The head element is placed between the HTML tag and the body tag. It contains metadata which is information about the document that isn’t displayed such as the title, character set, styles, and scripts.
+- The body element contains all the content of the HTML document such as headings, paragraphs, images, hyperlinks, etc… There can only be one body element per HTML document. 
+- The header elements contains introductory content or nav links. It typically contains one or more heading elements, a logo or icon, and/or authorship information. You can have several header elements per document but they cannot be placed within a footer, address, or other header element. 
+- The nav element defines a set of navigational links. It’s intended for major blocks of navigational links only. 
+- The main element contains the main content of the document. The content should be unique to the document and must not repeat in other documents.
+- The section element defines a section of the document. 
+- The article element contains independent, self-contained content. It should make sense on its own and it should be possible to distribute it independently from the rest of the site. This could be a forum post, blog post, news story, etc… 
+- The div element defines a division or a section in an HTML document. It’s used as  a container for HTML elements, which is then styled with CSS or manipulated with Javascript. Any sort of content can be put inside the div tag, and browsers will automatically place a line break before and after this element. 
+- The aside element defines a section of content that is aside from the content it’s placed in. The aside content should be indirectly related to the surrounding content. It’s often placed as a sidebar in a document. 
+- The footer element defines a footer for a document or section and typically contains authorship information, copyright information, contact information, etc…
+- The span element is an inline container used to mark up part of a text or document. It’s much like the div element but the div element is a block-level element, and the span element is an inline element. 
+- The small element defines smaller text such as copyright and other side-comments. 
+

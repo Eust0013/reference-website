@@ -52,3 +52,5 @@ HTML. {.
 } COLOUR would be the property and BLACK would be the value. 
 10. Why do we use border-box property in CSS?
 - By default, the width and the height of an element is calculated like width + padding + border = actual width of the element and height + padding + border = actual height of the element, therefore when you set the width and height of an element the element often appears bigger than you have set as it adds the padding and border to the total size. With the border box element, the padding and border are included inside the width and height of the box (not added) so the total width and height doesn’t change from the value set.
+11. Explain different type of ways we can add spacing to an element.
+- There are two ways to add spacing to an element; padding, and margin. Padding adds spacing inside the box, pushing the content away from its border. Margin adds spacing outside the box, pushing other boxes away from it.Margins can have positive or negative values.
